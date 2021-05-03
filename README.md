@@ -41,5 +41,5 @@ Describe test scenarios for the given requirements using ECP, after that, choose
 - npm run delete_reports (Exclude Reports)
 - npm run clean-screenshots (Exclude Screenshots)
 - npm run test-headless (Headless Execution)
-- npm run junta-gera-rel (Generate Unique Report) \sovos-qa-challenge\cypress\reports\Relatório-Testes-Lívia.html
+- npm run junta-gera-rel (Generate Unique Report) \sovos-qa-challenge\cypress\reports\Relatório.html
 

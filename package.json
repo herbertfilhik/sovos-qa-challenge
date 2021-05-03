@@ -42,7 +42,7 @@
     "open": "node_modules/.bin/cypress open --config-file cypress/config/hml.json",
     "open_dev": "node_modules/.bin/cypress open --config-file cypress/config/dev.json",
     "junta-json": "npx mochawesome-merge 'cypress/reports/*.json' > Rel_Compl.json",
-    "gera-rel-html": "npx marge Rel_Compl.json -f Relatório-Testes-Lívia -o cypress/reports/",
+    "gera-rel-html": "npx marge Rel_Compl.json -f Relatório -o cypress/reports/",
     "junta-gera-rel": "npm run junta-json && npm run gera-rel-html",
     "apaga_dados_bd": "npx cypress run --headless -b chrome --spec 'cypress/integration/BD/deleta_dados_bd.js'",
     "cria_amb_aut": "npx cypress run --headless -b chrome --spec 'cypress/integration/BD/cria_dados_bd.js'",
