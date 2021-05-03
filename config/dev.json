@@ -1,0 +1,6 @@
+{"env":
+    {
+        "baseUrl": "https://api.mocki.io",
+        "baseUrlFront": "https://www.amazon.com"
+    }
+}
